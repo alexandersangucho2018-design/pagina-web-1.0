@@ -2,40 +2,94 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-     <!-- Título que aparece en la pestaña del navegador -->
     <title>Mantenimiento de Computadoras</title>
- <!-- Contenido visible de la página -->
-</head>
-<body>
-    <!-- Título principal de la página -->
-    <h1>Mantenimiento de Computadoras</h1>
-    <!-- Texto descriptivo -->
-    <p>
-        Ofrecemos servicios básicos de mantenimiento
-        y reparación de computadoras.
-    </p>
-    <!-- Nombre del primer servicio -->
-    <h2>Mantenimiento Preventivo</h2>
-     <!-- Descripción del servicio -->
-    <p>
-        Limpieza interna del equipo y revisión general
-        de los componentes.
-    </p>
-    <!-- Imagen del servicio preventivo -->
-        <img src="img/images (1).jpg" alt="Mantenimiento preventivo" width="300">
-         <h2>Mantenimiento Correctivo</h2>
-    <!-- Nombre del segundo servicio -->
-    <p>
-        Reparación de fallas, cambio de piezas
-        y solución de problemas.
-    </p>
-    <!-- Descripción del servicio -->
-    <!-- Imagen del servicio correctivo -->
-    <img src="img/images.jpg" alt="Mantenimiento correctivo" width="300">
 
-    <!-- Enlace que lleva a la página de contacto -->
-    <p>
-        <a href="contactos/contactos.html">Ir a Contactos</a>
-    </p>
+    <!-- estilos basicos -->
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .caja{
+            border: 1px solid black;
+            margin: 15px;
+            padding: 10px;
+        }
+
+        .servicio{
+            border: 1px solid gray;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- titulo -->
+    <div class="caja">
+        <h1>Mantenimiento de Computadoras</h1>
+        <h2>Técnico: Jordi Morales</h2>
+    </div>
+
+    <!-- descripcion -->
+    <div class="caja">
+        <p>
+            Ofrecemos mantenimiento y reparación de computadoras.
+            Trabajamos de forma responsable para mejorar el rendimiento
+            de los equipos y alargar su vida útil.
+        </p>
+    </div>
+
+    <!-- servicios -->
+    <div class="caja">
+        <h2>Servicios que ofrecemos</h2>
+
+        <div class="servicio">
+            <h3>Mantenimiento preventivo</h3>
+            <p>Limpieza del equipo.</p>
+            <img src="img/images.jpg" width="200">
+        </div>
+
+        <div class="servicio">
+            <h3>Mantenimiento correctivo</h3>
+            <p>Reparación de fallas.</p>
+            <img src="img/images (1).jpg" width="200">
+        </div>
+
+        <div class="servicio">
+            <h3>Formateo</h3>
+            <p>Instalar sistema operativo.</p>
+            <img src="img/images (5).jpg" width="200">
+        </div>
+
+        <div class="servicio">
+            <h3>Eliminación de virus</h3>
+            <p>Limpieza de virus.</p>
+            <img src="img/images (3).jpg" width="200">
+        </div>
+
+        <div class="servicio">
+            <h3>Optimización</h3>
+            <p>Mejorar velocidad.</p>
+            <img src="img/images (4).jpg" width="200">
+        </div>
+
+    </div>
+
+    <!-- contacto -->
+    <div class="caja">
+        <a href="contactos/contactos.html" target="_blank">
+            <button>Ir a contactos</button>
+        </a>
+
+        <br><br>
+
+        <a href="https://wa.me/593998671833" target="_blank">WhatsApp</a> |
+        <a href="https://www.instagram.com/nova_jams?igsh=NmJ3enZyc201N3A1" target="_blank">Instagram</a>
+    </div>
+
 </body>
 </html>
