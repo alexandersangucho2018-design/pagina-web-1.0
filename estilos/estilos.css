@@ -1,0 +1,78 @@
+/* ESTILOS BASE */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 90px; /* Para que el menú no tape los cuadros */
+}
+
+.caja {
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
+}
+
+/* Menu superior centrado */
+.barra-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background: white;
+    z-index: 1000;
+}
+
+.menu-cuadrado {
+    border: 1px solid black; 
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+    background: white;
+}
+
+.txt-menu {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.divisor {
+    width: 1px;
+    height: 20px;
+    background-color: #000;
+}
+
+.menu-cuadrado a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.menu-cuadrado a:hover {
+    text-decoration: underline;
+}
+
+/* estilo de servicios */
+.servicio {
+    border: 1px solid gray;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 500px;
+}
+
+.caja-contacto {
+    margin-top: 20px;
+}
+
+.caja-contacto a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
